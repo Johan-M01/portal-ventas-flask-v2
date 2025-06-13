@@ -5,6 +5,9 @@ Este es un sistema web básico para registrar ventas, incluyendo monto y notas, 
 ![Screenshot del portal](screenshot.png)
 
 
+![Demo del sistema](https://github.com/Johan-M01/portal-ventas-flask/blob/main/programa_demo.gif?raw=true)
+
+
 ## 🚀 Funcionalidades
 
 - Registro de ventas con campos de **monto** y **nota**.
