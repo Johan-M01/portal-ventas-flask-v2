@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+</head>
+<body>
+    <h1>Formulario de Contacto</h1>
+
+    <form method="POST">
+        {{ form.hidden_tag() }}
+
+        <label for="nombre">Nombre:</label><br>
+        {{ form.nombre(size=32) }}<br><br>
+
+        <label for="correo">Correo Electrónico:</label><br>
+        {{ form.correo(size=32) }}<br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        {{ form.mensaje(rows=5, cols=40) }}<br><br>
+
+        {{ form.enviar() }}
+    </form>
+
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul>
+            {% for message in messages %}
+                <li style="color: green;">{{ message }}</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+
+    <br><a href="/">Volver al inicio</a>
+</body>
+</html>
