@@ -1,27 +1,40 @@
 # 🧾 Portal de Ventas (Flask)
 
-Este es un sistema web básico para registrar ventas, incluyendo monto y notas, desarrollado con **Python**, **Flask** y **SQLite**. Ideal como base para aplicaciones comerciales simples o como proyecto de aprendizaje en desarrollo web backend. 
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Made with Python](https://img.shields.io/badge/Made%20with-Python%203.x-yellow.svg)](https://www.python.org/)
+[![Status](https://img.shields.io/badge/status-active-brightgreen)](#)
+[![Author](https://img.shields.io/badge/Author-Johan%20Morfe-blueviolet)](https://github.com/Johan-M01)
 
-![Screenshot del portal](screenshot.png)
+---
 
+**Portal de Ventas** es un sistema web simple para registrar ventas con campos de **monto** y **nota**, desarrollado con **Flask** y **SQLite**. Ideal como base para apps comerciales ligeras o proyectos educativos de backend.
+
+<br>
+
+## 🎬 Demo
 
 ![Demo del sistema](https://github.com/Johan-M01/portal-ventas-flask/blob/main/programa_demo.gif?raw=true)
 
+<br>
 
 ## 🚀 Funcionalidades
 
-- Registro de ventas con campos de **monto** y **nota**.
-- Almacenamiento en base de datos **SQLite**.
-- Interfaz web simple y funcional con **HTML/Jinja2**.
-- Backend estructurado con **Flask** y **SQLAlchemy**.
+- 📝 Registro de ventas con monto y notas.
+- 🧠 Almacenamiento en base de datos **SQLite**.
+- 🖥️ Interfaz web simple usando **HTML + Jinja2**.
+- ⚙️ Backend con **Flask** y **SQLAlchemy**.
 
-## 📦 Tecnologías utilizadas
+<br>
+
+## 🧰 Tecnologías utilizadas
 
 - Python 3
 - Flask
-- Flask SQLAlchemy
 - SQLite
-- HTML + Jinja2
+- SQLAlchemy
+- HTML5 / Jinja2
+
+<br>
 
 ## ⚙️ Instalación y ejecución
 
@@ -30,9 +43,3 @@ Este es un sistema web básico para registrar ventas, incluyendo monto y notas, 
 ```bash
 git clone https://github.com/Johan-M01/portal-ventas-flask.git
 cd portal-ventas-flask
-# Instala las dependencias
-pip install flask flask_sqlalchemy
-
-# Ejecuta la aplicación
-python app.py
-Una vez ejecutado, abre tu navegador en: [http://127.0.0.1:5000](http://127.0.0.1:5000)
