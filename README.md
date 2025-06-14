@@ -1,3 +1,6 @@
+![Banner del proyecto](banner.png)
+
+
 # 🧾 Portal de Ventas (Flask)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
